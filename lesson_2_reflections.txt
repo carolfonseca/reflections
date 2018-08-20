@@ -17,3 +17,13 @@ By having this place "in between" the repository and the
 working directory, you have a bit more freedom around how you 
 want to make changes to the repository.
 
+3.What are some situations when branches would be helpful in
+keeping your history organised? How would branches help?
+
+Branches would be helpful by keeping different versions
+of the same code (eg. a work in progress or two versions
+in different languages) separate, so you can more easily
+find changes that relate to each particular version. 
+This would also help in debugging the code as the changes
+are kept separate.
+
