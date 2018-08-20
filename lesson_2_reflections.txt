@@ -1,0 +1,19 @@
+1. What happens when you initialize a repository? Why do you 
+need it?
+When you initialise a repository, git creates a hidden
+directory called .git, where all the commits (aka file 
+tracking) will be stored. Git does not commit the current
+version of files when you create a repository. You need
+the repository so that you can use git on a directory to
+track the changes (or versions) of particular files. 
+
+2. How is the staging area different from the working 
+directory and the repository? WHat value do you think it 
+offers?
+The staging area is different from the working directory and
+repository because it is not a particular directory that
+exists - it is a place to prepare files before making commits.
+By having this place "in between" the repository and the
+working directory, you have a bit more freedom around how you 
+want to make changes to the repository.
+
