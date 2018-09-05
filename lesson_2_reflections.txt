@@ -27,3 +27,9 @@ find changes that relate to each particular version.
 This would also help in debugging the code as the changes
 are kept separate.
 
+4. How do the diagrams help you visualise the branch structure?
+
+The diagrams help understand the branch structure by showing
+what commits have occured in each branch, where each
+branch is at, how the branches may differ, and also what
+the parent of each commit is.
