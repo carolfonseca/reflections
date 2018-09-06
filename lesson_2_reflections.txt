@@ -49,3 +49,16 @@ represents the merge and different branches in a way
 that allows you to trace back the parent of each
 commit.
 
+6. What are the pros and cons of Git's automatic merging
+vs. always doing merges manually?
+
+The main pro of doing automatic merges through Git is that
+it would save you a lot of time in figuring out what changes
+were made to a file, and how to combine the two files. 
+Another benefit is that Git also detects conflicts in merges
+where the same bit of code may have been changed in different
+ways, so that it prompts the user to check which change to 
+keep. The benefit or merging something manually is that you
+have complete control and knowledge of what changes have been
+made and you can ensure that they are all compatible and will
+work together - but this would be very time consuming.
