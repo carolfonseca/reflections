@@ -33,3 +33,19 @@ The diagrams help understand the branch structure by showing
 what commits have occured in each branch, where each
 branch is at, how the branches may differ, and also what
 the parent of each commit is.
+
+5. What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that you
+combine all the changes in the code from both different
+branches into the one branch. This way if two people
+were working on different features for a product, for
+example, they would get to do it separately without
+affecting or breaking each other's code, and then once
+they each had their feature working, a merge would
+combine both features into the one place. The diagram
+represents the merge and different branches in a way
+that allows you to trace back the parent of each
+commit.
+
