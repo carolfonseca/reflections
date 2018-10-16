@@ -3,3 +3,12 @@
 Creating a remote repository would be useful in order to maintain a backup of 
 work that is in your local computer, as well as so that other people can view
 or collaborate to the work in your repository.
+
+2. Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
+
+If your project is public or simply shared with others, 
+other people might be contributing to it on GitHub, so you might want to 
+first review any changes before pulling them into your local drive.
+
+
