@@ -11,4 +11,23 @@ If your project is public or simply shared with others,
 other people might be contributing to it on GitHub, so you might want to 
 first review any changes before pulling them into your local drive.
 
+3. Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+A branch is a separate version of your file history saved in your repository. You
+would use a branch when you want to create a test or different version of a particular
+file. You can also later merge two branches so that the new master branch contains
+all changes made on both branches (or you can keep two different branches, for 
+example, one for a file in english and one for a file in spanish).
+
+A clone is a copy of a repository, either within a local computer or from GitHub to a 
+local machine. You can use clone when you just want to make a copy of a repository
+that you will then continue to make changes to (and push back to GitHub).
+
+A fork is basically a clone, but where the copy is made from GitHub to GitHub. You would
+use a fork instead of a clone where you want to make changes to a repository without 
+affecting the original/source repository. The fork creates a copy of that repository
+and you can then clone that to your local machine and push changes to it, without
+any changes affecting the original repository you forked from. This will also mean your
+copied repository in GitHub will be linked to its original source.
 
