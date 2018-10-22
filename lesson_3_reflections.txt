@@ -31,3 +31,10 @@ and you can then clone that to your local machine and push changes to it, withou
 any changes affecting the original repository you forked from. This will also mean your
 copied repository in GitHub will be linked to its original source.
 
+4. What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+The benefit of having a copy of the last known state of the remote stored locally is that
+ it allows you to know where your local and remote repositories differ, and what changes
+ have been made in one repository that may not have been combined into the local one yet,
+ and if my local and remote repositories are in our out of sync.
