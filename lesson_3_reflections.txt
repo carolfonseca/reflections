@@ -35,27 +35,41 @@ copied repository in GitHub will be linked to its original source.
 locally?
 
 The benefit of having a copy of the last known state of the remote stored locally is that
- it allows you to know where your local and remote repositories differ, and what changes
- have been made in one repository that may not have been combined into the local one yet,
- and if my local and remote repositories are in our out of sync.
+it allows you to know where your local and remote repositories differ, and what changes
+have been made in one repository that may not have been combined into the local one yet,
+and if my local and remote repositories are in our out of sync.
 
- 5. How would you collaborate without using Git or GitHub? What would be easier, 
- and what would be harder?
+5. How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
 
- Using the recipes example, I would collaborate without Git or GitHub by using a software
- that allows some form or revision and online collaboration, like Google Docs. I could 
- make changes and add comments to notify someone else of the changes I've made. Google
- Docs also would keep a revision history that highlights any changes made to the document
- (and who has made each change). This method would involve sightly less work as I 
- wouldn't need to submit commits or push or pull branches. It would also be a bit more
- accessible as it wouldn't require other that I am collaborating with to know how to 
- use Git/GitHub. Also, with Google Docs we would not need to remember to save our own
- revisions of the file as it is done automatically. However, using this method would 
- also have some drawbacks. A revision history would be kept for every single change made, 
- even if it's not particularly relevant or logical, so if we needed to go back to an
- older version of the file, it would be hard to find which version we need. It could
- also be difficult to find changes to a file if the file is quite big and there are a
- lot of changes made - especially if the other collaborators don't add comments about
- changes they have made. With Git and GitHub, there is a cleaner and more logical
- historical track of changes made. It is also much easier to merge changes done by 
- separate people while ensuring all changes are compatible and make sense.
+Using the recipes example, I would collaborate without Git or GitHub by using a software
+that allows some form or revision and online collaboration, like Google Docs. I could 
+make changes and add comments to notify someone else of the changes I've made. Google
+Docs also would keep a revision history that highlights any changes made to the document
+(and who has made each change). This method would involve sightly less work as I 
+wouldn't need to submit commits or push or pull branches. It would also be a bit more
+accessible as it wouldn't require other that I am collaborating with to know how to 
+use Git/GitHub. Also, with Google Docs we would not need to remember to save our own
+revisions of the file as it is done automatically. However, using this method would 
+also have some drawbacks. A revision history would be kept for every single change made, 
+even if it's not particularly relevant or logical, so if we needed to go back to an
+older version of the file, it would be hard to find which version we need. It could
+also be difficult to find changes to a file if the file is quite big and there are a
+lot of changes made - especially if the other collaborators don't add comments about
+changes they have made. With Git and GitHub, there is a cleaner and more logical
+historical track of changes made. It is also much easier to merge changes done by 
+separate people while ensuring all changes are compatible and make sense.
+
+6. When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+Making changes in a separate branch and then merging the master to it, to then 
+merge the changes to the master may seem cumbersome, but there are benefits to it.
+Making changes in a separate branch:
+- ensures you maintain a working master at all times
+- isolates specific changes to code to different branches, making it easier to 
+pick up on bugs and fix errors
+- allows collaboration to work more smoothly and give the choice of what 
+features or changes to add to the master before it is done
+- gives people more freedom to try different things without worrying that 
+it will cause issues or break the code.
